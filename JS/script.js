@@ -29,6 +29,7 @@ function checkRequiredField(fieldId){
 	}else{
 		return true	
 	};
+	alert("brol");
 };
 //
 //function checkEmail(fieldId){
