@@ -70,32 +70,49 @@ function deg2rad(deg) {
 			html += "<div class='panel panel-";
 			html += status;
 			html += "'>";
-			html += "<div class='panel-heading'>";
-			html += "<h3 class='panel-title'>";
-			html += data.bezettingparkings.parking[i].parking;
-			html += "<span id='km-";
-			html += data.bezettingparkings.parking[i].parking;
-			html += "' class='badge pull-right'>";
-			html += "</span>";
-			html += "<span class='badge pull-right'>";
-			html += data.bezettingparkings.parking[i]._vrij;
-			html += "</span>";
-			html += "</h3>";
+				html += "<div class='panel-heading'>";
+					html += "<h4 class='panel-title'>";
+						
+
+						html += "<a data-toggle='collapse' data-parent='#accordion' href='#collapse"
+						html += i;
+						html += "'>";
+			           	
+			           	html += data.bezettingparkings.parking[i].parking;
+				           	html += "<span id='km-";
+							html += data.bezettingparkings.parking[i].parking;
+							html += "' class='badge pull-right'>";
+							html += "</span>";
+							html += "<span class='badge pull-right'>";
+							html += data.bezettingparkings.parking[i]._vrij;
+							html += "</span>";
+			            html += "</a>";
+		            html += "</h4>";
+	            html += "</div>";
+	            
+	            //html += "<div id='collapseOne' class='panel-collapse collapse in'>"
+
+	            html += "<div id='collapse"
+	            html += i;
+	            html += "' class='panel-collapse collapse'>"
+
+
+
+
+
+
+
+					html += "<div class='panel-body'>";
+						html += "<p>";
+							html += data.bezettingparkings.parking[i]._vrij;
+							html += "/";
+							html += data.bezettingparkings.parking[i]._capaciteit;
+						html += "</p>";
+					html += "</div>";
+				html += "</div>";
 			html += "</div>";
-			html += "<div class='panel-body'>";
-			html += "<p>";
-			html += data.bezettingparkings.parking[i]._vrij;
-			html += "/";
-			html += data.bezettingparkings.parking[i]._capaciteit;
-			html += "</p>";
-			html += "</div>";
-			html += "</div>";
-
-
-
-
 		}
-		document.getElementById("parking").innerHTML = html;
+		document.getElementById("accordion").innerHTML = html;
 		getLocation();
 	}
 }));
