@@ -10,12 +10,12 @@
     <title>Parkeren in Kortrijk</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="CSS/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap theme -->
-    <link href="CSS/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="CSS/theme.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -37,12 +37,29 @@
           </button>
           <a class="navbar-brand" href="#">Parkeren in Kortrijk</a>
         </div>
+
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Parkeren</a></li>
             <li><a href="shopandgo.html">Shop &amp; Go</a></li>
             <li><a href="tarieven.html">Tarieven</a></li>
+            <li></li>
+            <li><a href="#" data-toggle="collapse" data-target="#login">Log in</a></li>
           </ul>
+
+          <div id="login" class="collapse">
+            <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                      <input type="email" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" placeholder="Password" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-success">Sign in</button>
+                  </form>
+          </div>
+
+
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -51,7 +68,7 @@
       
 
       <div class="row">
-        <div id="parking" class="col-sm-6">
+        <div id="parking" class="col-sm-12">
           
         </div>
       </div>
@@ -65,10 +82,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="JS/jquery.js"></script>
-    <script src="JS/bootstrap.min.js"></script>
-    <script src="JS/holder.js"></script>
-    <script src="JS/script.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script src="js/script.js"></script>
     <!-- ================================================== -->
     <!-- LiveReload -->
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>

@@ -15,7 +15,7 @@ var plaatsen = new Array();
 			if (data.shopandgo.Sensor[i].Sensor != "Unknown"){
 
 				if (($.inArray(data.shopandgo.Sensor[i]._Street, plaatsen)) == -1){
-						plaatsen.push(data.shopandgo.Sensor[i]);
+						plaatsen.push(data.shopandgo.Sensor[i]._Street);
 				}
 			}
 		}
