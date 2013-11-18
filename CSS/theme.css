@@ -23,3 +23,11 @@ body {
 	float:left;
 	padding-right: 20px;
 }
+
+a, a:hover, a:active, a:visited, a:link{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #111111;
+  text-decoration: none;
+};
