@@ -1,0 +1,2265 @@
+{
+    "parkoinfo": {
+        "Authority": {
+            "GeneralInfo": {
+                "IDInfo": {
+                    "Name": "Parko agb",
+                    "URL": "www.parko.be"
+                },
+                "Contact": {
+                    "FirstName": "Parko",
+                    "LastName": "agb",
+                    "Position": "Parkeerbedrijf",
+                    "Phone": "+3256281212",
+                    "Fax": "+3256281213",
+                    "Email": "info@parko.be"
+                },
+                "Address": {
+                    "StreetName": "Koning Albertstraat",
+                    "HouseNumber": "17",
+                    "PostalCode": "8500",
+                    "Location": "Kortrijk",
+                    "Country": "Belgium"
+                },
+                "GeoLocation": {
+                    "Latitude": "50.82570027264116",
+                    "Longitude": "3.262735155906739"
+                }
+            },
+            "Operator": {
+                "GeneralInfo": {
+                    "IDInfo": {
+                        "Name": "Parko agb",
+                        "URL": "www.parko.be"
+                    },
+                    "Contact": {
+                        "FirstName": "Parko",
+                        "LastName": "agb",
+                        "Position": "Parkeerbedrijf",
+                        "Phone": "+3256281212",
+                        "Fax": "+3256281213",
+                        "Email": "info@parko.be"
+                    },
+                    "Address": {
+                        "StreetName": "Koning Albertstraat",
+                        "HouseNumber": "17",
+                        "PostalCode": "8500",
+                        "Location": "Kortrijk",
+                        "Country": "Belgium"
+                    },
+                    "GeoLocation": {
+                        "Latitude": "50.826103514817206",
+                        "Longitude": "3.262735155906739"
+                    }
+                },
+                "OffstreetParking": [
+                    {
+                        "GeneralInfo": {
+                            "IDInfo": {
+                                "Name": "P Broeltorens",
+                                "LogoURL": "http://www.kortrijk.be/files/kortrijk/header/strip_Broeltorens.jpg",
+                                "URL": "http://www.kortrijk.be/adressen/p-broeltorens"
+                            },
+                            "Contact": {
+                                "FirstName": "Parko",
+                                "LastName": "agb",
+                                "Position": "Exploitant",
+                                "Phone": "+3256281212",
+                                "Fax": "+3256281213",
+                                "Email": "info@parko.be"
+                            },
+                            "Address": {
+                                "StreetName": "Damkaai",
+                                "PostalCode": "8500",
+                                "Location": "Kortrijk",
+                                "Country": "Belgium"
+                            },
+                            "GeoLocation": {
+                                "Latitude": "50.8312216768968",
+                                "Longitude": "3.268091527309480"
+                            }
+                        },
+                        "ParkingType": [
+                            {
+                                "ParkingType": "open space"
+                            },
+                            {
+                                "ParkingType": "parking zone"
+                            },
+                            {
+                                "ParkingType": "single level"
+                            }
+                        ],
+                        "Feature": "wheelchair accessible",
+                        "PermittedVehicle": [
+                            {
+                                "PermittedVehicle": "heavy goods vehicles"
+                            },
+                            {
+                                "PermittedVehicle": "large car"
+                            },
+                            {
+                                "PermittedVehicle": "light goods vehicles"
+                            },
+                            {
+                                "PermittedVehicle": "minibus"
+                            },
+                            {
+                                "PermittedVehicle": "small car"
+                            }
+                        ],
+                        "UserType": "all users",
+                        "SecurityType": [
+                            {
+                                "SecurityType": "cctv"
+                            },
+                            {
+                                "SecurityType": "fences"
+                            },
+                            {
+                                "SecurityType": "security staff"
+                            }
+                        ],
+                        "SupervisionType": [
+                            {
+                                "SupervisionType": "control centre off site"
+                            },
+                            {
+                                "SupervisionType": "patrol"
+                            },
+                            {
+                                "SupervisionType": "remote"
+                            }
+                        ],
+                        "PaymentMethod": [
+                            {
+                                "PaymentMethod": "cash"
+                            },
+                            {
+                                "PaymentMethod": "credit card"
+                            }
+                        ],
+                        "Capacity": "320",
+                        "Reservations": {},
+                        "SizeRestrictions": {
+                            "MaxWidth": "0",
+                            "MaxHeight": "0"
+                        },
+                        "Assessment": {
+                            "SecuritySelf": "0",
+                            "ServiceSelf": "0",
+                            "SecurityFormal": "0",
+                            "ServiceFormal": "0"
+                        },
+                        "Tariff": [
+                            {
+                                "Name": "PBR-10D",
+                                "Amount": "0",
+                                "Currency": "EUR",
+                                "Duration": "0u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) First Hour for Free - Dagtarief (8u-20u) Eerste Uur 0 - Taux journalier (8h-20h) Premier Heur Gratuit"
+                            },
+                            {
+                                "Name": "PBR-12D",
+                                "Amount": "1",
+                                "Currency": "EUR",
+                                "Duration": "1u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 1h20 for 1 Euro - Dagtarief (8u-20u) Max 1u20 parkeren voor 1 Euro - Taux journalier (8h-20h) temps de stationnement max 1h20 pour 1 Euro"
+                            },
+                            {
+                                "Name": "PBR-20D",
+                                "Amount": "1.5",
+                                "Currency": "EUR",
+                                "Duration": "1u40",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 2h for 1,50 Euro - Dagtarief (8u-20u) Max 2u parkeren voor 1,50 Euro - Taux journalier (8h-20h) temps de stationnement max 2h pour 1,50 Euro"
+                            },
+                            {
+                                "Name": "PBR-30D",
+                                "Amount": "2",
+                                "Currency": "EUR",
+                                "Duration": "2u30",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 3h for 2 Euro - Dagtarief (8u-20u) Max 3u parkeren voor 2 Euro - Taux journalier (8h-20h) temps de stationnement max 3h pour 2 Euro"
+                            },
+                            {
+                                "Name": "PBR+30D",
+                                "Amount": "2.5",
+                                "Currency": "EUR",
+                                "Duration": "3u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) more than 3h for 2,5 Euro - Dagtarief (8u-20u) meer dan 3u parkeren voor 2,5 Euro - Taux journalier (8h-20h) temps de stationnement plus 3h pour 2,5 Euro"
+                            },
+                            {
+                                "Name": "PBR+30N",
+                                "Amount": "1.5",
+                                "Currency": "EUR",
+                                "Duration": "3u",
+                                "DurationLimit": ">",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) parktime over 3h for 1,50 Euro - Nachttarief (20u-8u) meer dan 3u parkeren voor 1,50 Euro - Tarif de nuit (20h-8h) temps de stationnement plus de 3h pour 1,50 Euro"
+                            },
+                            {
+                                "Name": "PBR-30N",
+                                "Amount": "1.5",
+                                "Currency": "EUR",
+                                "Duration": "2u30",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 3h for 1,50 Euro - Nachttarief (20u-8u) Max 3u parkeren voor 1,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 3h pour 1,50 Euro"
+                            },
+                            {
+                                "Name": "PBR-20N",
+                                "Amount": "1",
+                                "Currency": "EUR",
+                                "Duration": "1u40",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 2h for 1 Euro - Nachttarief (20u-8u) Max 2u parkeren voor 1 Euro - Tarif de nuit (20h-8h) temps de stationnement max 2h pour 1 Euro"
+                            },
+                            {
+                                "Name": "PBR-12N",
+                                "Amount": "0.5",
+                                "Currency": "EUR",
+                                "Duration": "1u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 1h20 for 0,50 Euro - Nachttarief (20u-8u) Max 1u20 parkeren voor 0,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 1h20 pour 0,50 Euro"
+                            },
+                            {
+                                "Name": "PBR-10N",
+                                "Amount": "0",
+                                "Currency": "EUR",
+                                "Duration": "0u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) First Hour For Free - Nachttarief (20u-8u) Eerste Uur Gratis - Tarif de nuit (20h-8h) Premier Heur Gratuit"
+                            }
+                        ],
+                        "OpeningHour": [
+                            {
+                                "Name": "PBR-MONDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Monday"
+                            },
+                            {
+                                "Name": "PBR-TUESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Tuesday"
+                            },
+                            {
+                                "Name": "PBR-WEDNESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Wednesday"
+                            },
+                            {
+                                "Name": "PBR-THURSDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Thursday"
+                            },
+                            {
+                                "Name": "PBR-FRIDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Friday"
+                            },
+                            {
+                                "Name": "PBR-SATURDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Saturday"
+                            },
+                            {
+                                "Name": "PBR-SUNDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Sunday"
+                            }
+                        ],
+                        "Subscription": [
+                            {
+                                "Name": "Persoonsabonnement T1",
+                                "Fee": "40",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription T1: Monday - Friday / 8am-8pm (Monthly subscription) - Persoonsabonnement T1: Maandag - Vrijdag / 8u-20u (Maandabonnement) - Abonnement Personnel T1: Lundi - Vendredi / 8h-20h (Abonnement Mensuel)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement T2",
+                                "Fee": "50",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription T2: Monday - Sunday / 8am-8pm (Monthly subscription) - Persoonsabonnement T2: Maandag - Zondag / 8u-20u (Maandabonnement) - Abonnement Personnel T2: Lundi - Dimanche / 8h-20h (Abonnement Mensuel)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement T3",
+                                "Fee": "60",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription T3: 7days on 7 / 24/24h (Monthly subscription) - Persoonsabonnement T3: 7 dagen op 7 / 24/24u (Maandabonnement) - Abonnement Personnel T3: Lundi - Dimanche / 8h-20h (Abonnement Mensuel)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement 2 dagen/week 24u-24u",
+                                "Fee": "25",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription 2 days a week (24/24h) - Persoonsabonnement 2 dagen per week (24u-24u) - Abonnement Personnel 2 jours par semaine (24h-24h)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement 3 dagen/week 24u-24u",
+                                "Fee": "30",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription 3 days a week (24/24h) - Persoonsabonnement 3 dagen per week (24u-24u) - Abonnement Personnel 3 jours par semaine (24h-24h)"
+                            },
+                            {
+                                "Name": "Bewonersabonnement 1e vergunning",
+                                "Fee": "20",
+                                "Currency": "EUR",
+                                "Description": "Residents Subscription 1e license (7/7d - 24/24h) (Monthly) - Bewonersabonnement 1e vergunning (7/7d - 24/24u) (per maand) - Abonnement Résidents 1e permis (24h-24h)"
+                            },
+                            {
+                                "Name": "Bewonersabonnement 2e vergunning",
+                                "Fee": "30",
+                                "Currency": "EUR",
+                                "Description": "Residents Subscription 2nd license (7/7d - 24/24h) (Monthly) - Bewonersabonnement 2e vergunning (7/7d - 24/24u) (per maand) - Abonnement Résidents 2e permis (24h-24h)"
+                            }
+                        ]
+                    },
+                    {
+                        "GeneralInfo": {
+                            "IDInfo": {
+                                "Name": "P Schouwburg",
+                                "LogoURL": "http://www.kortrijk.be/files/kortrijk/header/strip_Schouwburg.jpg",
+                                "URL": "http://www.kortrijk.be/adressen/p-schouwburg-0"
+                            },
+                            "Contact": {
+                                "FirstName": "Parko",
+                                "LastName": "agb",
+                                "Position": "Exploitant",
+                                "Phone": "+3256281212",
+                                "Fax": "+3256281213",
+                                "Email": "info@parko.be"
+                            },
+                            "Address": {
+                                "StreetName": "Schouwburgplein",
+                                "PostalCode": "8500",
+                                "Location": "Kortrijk",
+                                "Country": "Belgium"
+                            },
+                            "GeoLocation": {
+                                "Latitude": "50.82612384626342",
+                                "Longitude": "3.26671018966681"
+                            }
+                        },
+                        "ParkingType": [
+                            {
+                                "ParkingType": "covered"
+                            },
+                            {
+                                "ParkingType": "parking zone"
+                            },
+                            {
+                                "ParkingType": "underground"
+                            }
+                        ],
+                        "Feature": [
+                            {
+                                "Feature": "lift"
+                            },
+                            {
+                                "Feature": "toilet"
+                            },
+                            {
+                                "Feature": "wheelchair accessible"
+                            }
+                        ],
+                        "PermittedVehicle": [
+                            {
+                                "PermittedVehicle": "large car"
+                            },
+                            {
+                                "PermittedVehicle": "light goods vehicles"
+                            },
+                            {
+                                "PermittedVehicle": "small car"
+                            }
+                        ],
+                        "UserType": "all users",
+                        "SecurityType": [
+                            {
+                                "SecurityType": "cctv"
+                            },
+                            {
+                                "SecurityType": "security staff"
+                            }
+                        ],
+                        "SupervisionType": [
+                            {
+                                "SupervisionType": "control centre off site"
+                            },
+                            {
+                                "SupervisionType": "patrol"
+                            },
+                            {
+                                "SupervisionType": "remote"
+                            }
+                        ],
+                        "PaymentMethod": [
+                            {
+                                "PaymentMethod": "cash"
+                            },
+                            {
+                                "PaymentMethod": "credit card"
+                            },
+                            {
+                                "PaymentMethod": "mobile phone"
+                            }
+                        ],
+                        "Capacity": "395",
+                        "Reservations": {},
+                        "SizeRestrictions": {
+                            "MaxWidth": "0",
+                            "MaxHeight": "0"
+                        },
+                        "Assessment": {
+                            "SecuritySelf": "0",
+                            "ServiceSelf": "0",
+                            "SecurityFormal": "0",
+                            "ServiceFormal": "0"
+                        },
+                        "Tariff": [
+                            {
+                                "Name": "PSB-10D",
+                                "Amount": "0",
+                                "Currency": "EUR",
+                                "Duration": "0u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) First Hour for Free - Dagtarief (8u-20u) Eerste Uur 0 - Taux journalier (8h-20h) Premier Heur Gratuit"
+                            },
+                            {
+                                "Name": "PSB-12D",
+                                "Amount": "1",
+                                "Currency": "EUR",
+                                "Duration": "1u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 1h20 for 1 Euro - Dagtarief (8u-20u) Max 1u20 parkeren voor 1 Euro - Taux journalier (8h-20h) temps de stationnement max 1h20 pour 1 Euro"
+                            },
+                            {
+                                "Name": "PSB-14D",
+                                "Amount": "1.5",
+                                "Currency": "EUR",
+                                "Duration": "1u20",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 1h40 for 1,50 Euro - Dagtarief (8u-20u) Max 1u40 parkeren voor 1,50 Euro - Taux journalier (8h-20h) temps de stationnement max 1h40 pour 1,50 Euro"
+                            },
+                            {
+                                "Name": "PSB-20D",
+                                "Amount": "2",
+                                "Currency": "EUR",
+                                "Duration": "1u40",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 2h for 2 Euro - Dagtarief (8u-20u) Max 2u parkeren voor 2 Euro - Taux journalier (8h-20h) temps de stationnement max 2h pour 2 Euro"
+                            },
+                            {
+                                "Name": "PSB-23D",
+                                "Amount": "3",
+                                "Currency": "EUR",
+                                "Duration": "2u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 2h30 for 3 Euro - Dagtarief (8u-20u) Max 2u30 parkeren voor 3 Euro - Taux journalier (8h-20h) temps de stationnement max 2h30 pour 3 Euro"
+                            },
+                            {
+                                "Name": "PSB-30D",
+                                "Amount": "4.5",
+                                "Currency": "EUR",
+                                "Duration": "2u30",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 3h for 4,50 Euro - Dagtarief (8u-20u) Max 3u parkeren voor 4,50 Euro - Taux journalier (8h-20h) temps de stationnement max 3h pour 4,50 Euro"
+                            },
+                            {
+                                "Name": "PSB+33D",
+                                "Amount": "7",
+                                "Currency": "EUR",
+                                "Duration": "3u30",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) parktime over 3h30 for 7 Euro with a max of 12 hours - Dagtarief (8u-20u) Meer dan 3u30 parkeren voor 7 Euro met een maximum van 12 uren - Taux journalier (8h-20h) temps de stationnement plus de 3h30 pour 7 Euro avec un maximum de 12 heurs"
+                            },
+                            {
+                                "Name": "PSB-10N",
+                                "Amount": "0",
+                                "Currency": "EUR",
+                                "Duration": "0u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) First Hour For Free - Nachttarief (20u-8u) Eerste Uur 0 - Tarif de nuit (20h-8h) Premier Heur Gratuit"
+                            },
+                            {
+                                "Name": "PSB-12N",
+                                "Amount": "0.5",
+                                "Currency": "EUR",
+                                "Duration": "1u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 1h20 for 0,50 Euro - Nachttarief (20u-8u) Max 1u20 parkeren voor 0,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 1h20 pour 0,50 Euro"
+                            },
+                            {
+                                "Name": "PSB-14N",
+                                "Amount": "0.5",
+                                "Currency": "EUR",
+                                "Duration": "1u20",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 1h40 for 0,50 Euro - Nachttarief (20u-8u) Max 1u40 parkeren voor 0,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 1h40 pour 0,50 Euro"
+                            },
+                            {
+                                "Name": "PSB-20N",
+                                "Amount": "1",
+                                "Currency": "EUR",
+                                "Duration": "1u40",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 2h for 1 Euro - Nachttarief (20u-8u) Max 2u parkeren voor 1 Euro - Tarif de nuit (20h-8h) temps de stationnement max 2h pour 1 Euro"
+                            },
+                            {
+                                "Name": "PSB-23N",
+                                "Amount": "1.5",
+                                "Currency": "EUR",
+                                "Duration": "2u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 2h30 for 1,50 Euro - Nachttarief (20u-8u) Max 2u30 parkeren voor 1,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 2h30 pour 1,50 Euro"
+                            },
+                            {
+                                "Name": "PSB-30N",
+                                "Amount": "1.5",
+                                "Currency": "EUR",
+                                "Duration": "2u30",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 3h for 1,50 Euro - Nachttarief (20u-8u) Max 3u parkeren voor 1,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 3h pour 1,50 Euro"
+                            },
+                            {
+                                "Name": "PSB-33D",
+                                "Amount": "6.5",
+                                "Currency": "EUR",
+                                "Duration": "3u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 3h30 for 6,5 Euro - Dagtarief (8u-20u) Max 3u30 parkeren voor 6,5 Euro - Tarif de jour (8h-20h) temps de stationnement max 3h30 pour 6,5 Euro"
+                            },
+                            {
+                                "Name": "PSB+33N",
+                                "Amount": "2.5",
+                                "Currency": "EUR",
+                                "Duration": "3u30",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) parktime over 3h30 for 2,50 Euro with a maximum of 12 hours - Nachttarief (20u-8u) Meer dan 3u30 parkeren voor 2,50 Euro met een maximum van 12 uren - Tarif de nuit (8h-20h) temps de stationnement plus de 3h30 pour 2,50 Euro"
+                            },
+                            {
+                                "Name": "PSB-33N",
+                                "Amount": "2",
+                                "Currency": "EUR",
+                                "Duration": "3u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 3h30 for 2 Euro - Nachttarief (20u-8u) Max 3u30 parkeren voor 2 Euro - Tarif de nuit (20h-8h) temps de stationnement max 3h30 pour2 Euro"
+                            }
+                        ],
+                        "OpeningHour": [
+                            {
+                                "Name": "PSB-MONDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "08:00:00.0000000+02:00",
+                                "EndTime": "02:00:00.0000000+02:00",
+                                "Day": "Monday"
+                            },
+                            {
+                                "Name": "PSB-TUESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "08:00:00.0000000+02:00",
+                                "EndTime": "02:00:00.0000000+02:00",
+                                "Day": "Tuesday"
+                            },
+                            {
+                                "Name": "PSB-WEDNESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "08:00:00.0000000+02:00",
+                                "EndTime": "02:00:00.0000000+02:00",
+                                "Day": "Wednesday"
+                            },
+                            {
+                                "Name": "PSB-THURSDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "08:00:00.0000000+02:00",
+                                "EndTime": "02:00:00.0000000+02:00",
+                                "Day": "Thursday"
+                            },
+                            {
+                                "Name": "PSB-FRIDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "08:00:00.0000000+02:00",
+                                "EndTime": "03:00:00.0000000+02:00",
+                                "Day": "Friday"
+                            },
+                            {
+                                "Name": "PSB-SATURDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "08:00:00.0000000+02:00",
+                                "EndTime": "03:00:00.0000000+02:00",
+                                "Day": "Saturday"
+                            },
+                            {
+                                "Name": "PSB-SUNDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "12:00:00.0000000+02:00",
+                                "EndTime": "02:00:00.0000000+02:00",
+                                "Day": "Sunday"
+                            }
+                        ],
+                        "Subscription": [
+                            {
+                                "Name": "Persoonsabonnement T1",
+                                "Fee": "75",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription T1: Monday - Friday / 8am-8pm (Monthly subscription) - Persoonsabonnement T1: Maandag - Vrijdag / 8u-20u (Maandabonnement) - Abonnement Personnel T1: Lundi - Vendredi / 8h-20h (Abonnement Mensuel)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement T2",
+                                "Fee": "85",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription T2: Monday - Sunday / 8am-8pm (Monthly subscription) - Persoonsabonnement T2: Maandag - Zondag / 8u-20u (Maandabonnement) - Abonnement Personnel T2: Lundi - Dimanche / 8h-20h (Abonnement Mensuel)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement T3",
+                                "Fee": "95",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription T3: 7days on 7 / 24/24h (Monthly subscription) - Persoonsabonnement T3: 7 dagen op 7 / 24/24u (Maandabonnement) - Abonnement Personnel T3: Lundi - Dimanche / 8h-20h (Abonnement Mensuel)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement 2 dagen/week 8u-20u",
+                                "Fee": "30",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription 2 days a week (8am-8pm) - Persoonsabonnement 2 dagen per week (8u-20u) - Abonnement Personnel 2 jours par semaine (8h-20h)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement 3 dagen/week 8u-20u",
+                                "Fee": "45",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription 3 days a week (8am-8pm) - Persoonsabonnement 3 dagen per week (8u-20u) - Abonnement Personnel 3 jours par semaine (8h-20h)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement 2 dagen/week 24u-24u",
+                                "Fee": "35",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription 2 days a week (24/24h) - Persoonsabonnement 2 dagen per week (24u-24u) - Abonnement Personnel 2 jours par semaine (24h-24h)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement 3 dagen/week 24u-24u",
+                                "Fee": "50",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription 3 days a week (24/24h) - Persoonsabonnement 3 dagen per week (24u-24u) - Abonnement Personnel 3 jours par semaine (24h-24h)"
+                            },
+                            {
+                                "Name": "Bewonersabonnement 1e vergunning",
+                                "Fee": "30",
+                                "Currency": "EUR",
+                                "Description": "Residents Subscription 1e license (7/7d - 24/24h) (Monthly) - Bewonersabonnement 1e vergunning (7/7d - 24/24u) (per maand) - Abonnement Résidents 1e permis (24h-24h)"
+                            },
+                            {
+                                "Name": "Bewonersabonnement 2e vergunning",
+                                "Fee": "45",
+                                "Currency": "EUR",
+                                "Description": "Residents Subscription 2nd license (7/7d - 24/24h) (Monthly) - Bewonersabonnement 2e vergunning (7/7d - 24/24u) (per maand) - Abonnement Résidents 2e permis (24h-24h)"
+                            }
+                        ]
+                    },
+                    {
+                        "GeneralInfo": {
+                            "IDInfo": {
+                                "Name": "P Veemarkt",
+                                "LogoURL": "http://www.kortrijk.be/files/kortrijk/header/strip_Veemarkt.jpg",
+                                "URL": "http://www.kortrijk.be/adressen/p-veemarkt-0"
+                            },
+                            "Contact": {
+                                "FirstName": "Parko",
+                                "LastName": "agb",
+                                "Position": "Exploitant",
+                                "Phone": "+3256281212",
+                                "Fax": "+3256281213",
+                                "Email": "info@parko.be"
+                            },
+                            "Address": {
+                                "StreetName": "Veemarkt",
+                                "PostalCode": "8500",
+                                "Location": "Kortrijk",
+                                "Country": "Belgium"
+                            },
+                            "GeoLocation": {
+                                "Latitude": "50.826577912917884",
+                                "Longitude": "3.275379089202943"
+                            }
+                        },
+                        "ParkingType": [
+                            {
+                                "ParkingType": "covered"
+                            },
+                            {
+                                "ParkingType": "parking zone"
+                            },
+                            {
+                                "ParkingType": "underground"
+                            }
+                        ],
+                        "Feature": [
+                            {
+                                "Feature": "lift"
+                            },
+                            {
+                                "Feature": "wheelchair accessible"
+                            }
+                        ],
+                        "PermittedVehicle": [
+                            {
+                                "PermittedVehicle": "large car"
+                            },
+                            {
+                                "PermittedVehicle": "light goods vehicles"
+                            },
+                            {
+                                "PermittedVehicle": "small car"
+                            }
+                        ],
+                        "UserType": "all users",
+                        "SecurityType": [
+                            {
+                                "SecurityType": "cctv"
+                            },
+                            {
+                                "SecurityType": "security staff"
+                            }
+                        ],
+                        "SupervisionType": [
+                            {
+                                "SupervisionType": "control centre off site"
+                            },
+                            {
+                                "SupervisionType": "patrol"
+                            },
+                            {
+                                "SupervisionType": "remote"
+                            }
+                        ],
+                        "PaymentMethod": [
+                            {
+                                "PaymentMethod": "cash"
+                            },
+                            {
+                                "PaymentMethod": "credit card"
+                            }
+                        ],
+                        "Capacity": "575",
+                        "Reservations": {},
+                        "SizeRestrictions": {
+                            "MaxWidth": "0",
+                            "MaxHeight": "0"
+                        },
+                        "Assessment": {
+                            "SecuritySelf": "0",
+                            "ServiceSelf": "0",
+                            "SecurityFormal": "0",
+                            "ServiceFormal": "0"
+                        },
+                        "Tariff": [
+                            {
+                                "Name": "PVM-10D",
+                                "Amount": "0",
+                                "Currency": "EUR",
+                                "Duration": "0u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) First Hour for Free - Dagtarief (8u-20u) Eerste Uur Gratis - Taux journalier (8h-20h) Premier Heur Gratuit"
+                            },
+                            {
+                                "Name": "PVM-12D",
+                                "Amount": "1",
+                                "Currency": "EUR",
+                                "Duration": "1u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 1h20 for 1 Euro - Dagtarief (8u-20u) Max 1u20 parkeren voor 1 Euro - Taux journalier (8h-20h) temps de stationnement max 1h20 pour 1 Euro"
+                            },
+                            {
+                                "Name": "PVM-14D",
+                                "Amount": "1.5",
+                                "Currency": "EUR",
+                                "Duration": "1u20",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 1h40 for 1,50 Euro - Dagtarief (8u-20u) Max 1u40 parkeren voor 1,50 Euro - Taux journalier (8h-20h) temps de stationnement max 1h40 pour 1,50 Euro"
+                            },
+                            {
+                                "Name": "PVM-20D",
+                                "Amount": "2",
+                                "Currency": "EUR",
+                                "Duration": "1u40",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 2h for 2 Euro - Dagtarief (8u-20u) Max 2u parkeren voor 2 Euro - Taux journalier (8h-20h) temps de stationnement max 2h pour 2 Euro"
+                            },
+                            {
+                                "Name": "PVM-23D",
+                                "Amount": "3",
+                                "Currency": "EUR",
+                                "Duration": "2u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 2h30 for 3 Euro - Dagtarief (8u-20u) Max 2u30 parkeren voor 3 Euro - Taux journalier (8h-20h) temps de stationnement max 2h30 pour 3 Euro"
+                            },
+                            {
+                                "Name": "PVM-30D",
+                                "Amount": "4.5",
+                                "Currency": "EUR",
+                                "Duration": "2u30",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 3h for 4,50 Euro - Dagtarief (8u-20u) Max 3u parkeren voor 4,50 Euro - Taux journalier (8h-20h) temps de stationnement max 3h pour 4,50 Euro"
+                            },
+                            {
+                                "Name": "PVM-33D",
+                                "Amount": "6.5",
+                                "Currency": "EUR",
+                                "Duration": "3u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 3h30 for 6,50 Euro - Dagtarief (8u-20u) Max 3u30 parkeren voor 6,50 Euro - Taux journalier (8h-20h) temps de stationnement max 3h30 pour 6,50 Euro"
+                            },
+                            {
+                                "Name": "PVM+33D",
+                                "Amount": "7",
+                                "Currency": "EUR",
+                                "Duration": "3u30",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) parktime over 3h30 for 7 Euro with a maximum of 12 hours - Dagtarief (8u-20u) Meer dan 3u30 parkeren voor 7 Euro - Taux journalier (8h-20h) temps de stationnement plus de 3h30 pour 7 Euro"
+                            },
+                            {
+                                "Name": "PVM-10N",
+                                "Amount": "0",
+                                "Currency": "EUR",
+                                "Duration": "0u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) First Hour For Free - Nachttarief (20u-8u) Eerste Uur 0 - Tarif de nuit (20h-8h) Premier Heur Gratuit"
+                            },
+                            {
+                                "Name": "PVM-12N",
+                                "Amount": "0.5",
+                                "Currency": "EUR",
+                                "Duration": "1u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 1h20 for 0,50 Euro - Nachttarief (20u-8u) Max 1u20 parkeren voor 0,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 1h20 pour 0,50 Euro"
+                            },
+                            {
+                                "Name": "PVM-14N",
+                                "Amount": "0.5",
+                                "Currency": "EUR",
+                                "Duration": "1u20",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 1h40 for 0,50 Euro - Nachttarief (20u-8u) Max 1u40 parkeren voor 0,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 1h40 pour 0,50 Euro"
+                            },
+                            {
+                                "Name": "PVM-20N",
+                                "Amount": "1",
+                                "Currency": "EUR",
+                                "Duration": "1u40",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 2h for 1 Euro - Nachttarief (20u-8u) Max 2u parkeren voor 1 Euro - Tarif de nuit (20h-8h) temps de stationnement max 2h pour 1 Euro"
+                            },
+                            {
+                                "Name": "PVM-23N",
+                                "Amount": "1.5",
+                                "Currency": "EUR",
+                                "Duration": "2u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 2h30 for 1,50 Euro - Nachttarief (20u-8u) Max 2u30 parkeren voor 1,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 2h30 pour 1,50 Euro"
+                            },
+                            {
+                                "Name": "PVM-30N",
+                                "Amount": "1.5",
+                                "Currency": "EUR",
+                                "Duration": "2u30",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 3h for 1,50 Euro - Nachttarief (20u-8u) Max 3u parkeren voor 1,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 3h pour 1,50 Euro"
+                            },
+                            {
+                                "Name": "PVM-33N",
+                                "Amount": "2",
+                                "Currency": "EUR",
+                                "Duration": "3u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 3h30 for 2 Euro - Nachttarief (20u-8u) Max 3u30 parkeren voor 2 Euro - Tarif de nuit (20h-8h) temps de stationnement max 3h30 pour 2 Euro"
+                            },
+                            {
+                                "Name": "PVM+33N",
+                                "Amount": "2.5",
+                                "Currency": "EUR",
+                                "Duration": "3u30",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) parktime over 3h30 for 2,50 Euro with a maximum of 12 hours - Nachttarief (20u-8u) Meer dan 3u30 parkeren voor 2,50 Euro met een maximum van 12 uren - Tarif de nuit (8h-20h) temps de stationnement plus de 3h30 pour 2,50 Euro"
+                            }
+                        ],
+                        "OpeningHour": [
+                            {
+                                "Name": "PVM-MONDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "08:00:00.0000000+02:00",
+                                "EndTime": "02:00:00.0000000+02:00",
+                                "Day": "Monday"
+                            },
+                            {
+                                "Name": "PVM-TUESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "08:00:00.0000000+02:00",
+                                "EndTime": "02:00:00.0000000+02:00",
+                                "Day": "unknown"
+                            },
+                            {
+                                "Name": "PVM-WEDNESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "08:00:00.0000000+02:00",
+                                "EndTime": "02:00:00.0000000+02:00",
+                                "Day": "Wednesday"
+                            },
+                            {
+                                "Name": "PVM-THURSDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "08:00:00.0000000+02:00",
+                                "EndTime": "02:00:00.0000000+02:00",
+                                "Day": "Thursday"
+                            },
+                            {
+                                "Name": "PVM-FRIDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "08:00:00.0000000+02:00",
+                                "EndTime": "03:00:00.0000000+02:00",
+                                "Day": "Friday"
+                            },
+                            {
+                                "Name": "PVM-SATURDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "08:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Saturday"
+                            },
+                            {
+                                "Name": "PVM-SUNDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "12:00:00.0000000+02:00",
+                                "EndTime": "02:00:00.0000000+02:00",
+                                "Day": "Sunday"
+                            }
+                        ],
+                        "Subscription": [
+                            {
+                                "Name": "Persoonsabonnement T1",
+                                "Fee": "75",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription T1: Monday - Friday / 8am-8pm (Monthly subscription) - Persoonsabonnement T1: Maandag - Vrijdag / 8u-20u (Maandabonnement) - Abonnement Personnel T1: Lundi - Vendredi / 8h-20h (Abonnement Mensuel)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement T2",
+                                "Fee": "85",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription T2: Monday - Sunday / 8am-8pm (Monthly subscription) - Persoonsabonnement T2: Maandag - Zondag / 8u-20u (Maandabonnement) - Abonnement Personnel T2: Lundi - Dimanche / 8h-20h (Abonnement Mensuel)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement T3",
+                                "Fee": "95",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription T3: 7days on 7 / 24/24h (Monthly subscription) - Persoonsabonnement T3: 7 dagen op 7 / 24/24u (Maandabonnement) - Abonnement Personnel T3: Lundi - Dimanche / 8h-20h (Abonnement Mensuel)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement 2 dagen/week 8u-20u",
+                                "Fee": "30",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription 2 days a week (8am-8pm) - Persoonsabonnement 2 dagen per week (8u-20u) - Abonnement Personnel 2 jours par semaine (8h-20h)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement 3 dagen/week 8u-20u",
+                                "Fee": "45",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription 3 days a week (8am-8pm) - Persoonsabonnement 3 dagen per week (8u-20u) - Abonnement Personnel 3 jours par semaine (8h-20h)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement 2 dagen/week 24u-24u",
+                                "Fee": "35",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription 2 days a week (24/24h) - Persoonsabonnement 2 dagen per week (24u-24u) - Abonnement Personnel 2 jours par semaine (24h-24h)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement 3 dagen/week 24u-24u",
+                                "Fee": "50",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription 3 days a week (24/24h) - Persoonsabonnement 3 dagen per week (24u-24u) - Abonnement Personnel 3 jours par semaine (24h-24h)"
+                            },
+                            {
+                                "Name": "Bewonersabonnement 1e vergunning",
+                                "Fee": "30",
+                                "Currency": "EUR",
+                                "Description": "Residents Subscription 1e license (7/7d - 24/24h) (Monthly) - Bewonersabonnement 1e vergunning (7/7d - 24/24u) (per maand) - Abonnement Résidents 1e permis (24h-24h)"
+                            },
+                            {
+                                "Name": "Bewonersabonnement 2e vergunning",
+                                "Fee": "45",
+                                "Currency": "EUR",
+                                "Description": "Residents Subscription 2nd license (7/7d - 24/24h) (Monthly) - Bewonersabonnement 2e vergunning (7/7d - 24/24u) (per maand) - Abonnement Résidents 2e permis (24h-24h)"
+                            }
+                        ]
+                    },
+                    {
+                        "GeneralInfo": {
+                            "IDInfo": {
+                                "Name": "P Appel",
+                                "LogoURL": "http://www.kortrijk.be/files/kortrijk/header/strip_Appel.jpg",
+                                "URL": "http://www.kortrijk.be/adressen/p-appel"
+                            },
+                            "Contact": {
+                                "FirstName": "Parko",
+                                "LastName": "agb",
+                                "Position": "Exploitant",
+                                "Phone": "+3256281212",
+                                "Fax": "+3256281213",
+                                "Email": "info@parko.be"
+                            },
+                            "Address": {
+                                "StreetName": "Magdalenastraat",
+                                "PostalCode": "8500",
+                                "Location": "Kortrijk",
+                                "Country": "Belgium"
+                            },
+                            "GeoLocation": {
+                                "Latitude": "50.824864974199286",
+                                "Longitude": "3.256311265316072"
+                            }
+                        },
+                        "Capacity": "308",
+                        "Reservations": {},
+                        "SizeRestrictions": {
+                            "MaxWidth": "0",
+                            "MaxHeight": "0"
+                        },
+                        "Assessment": {
+                            "SecuritySelf": "0",
+                            "ServiceSelf": "0",
+                            "SecurityFormal": "0",
+                            "ServiceFormal": "0"
+                        },
+                        "Tariff": {
+                            "Name": "PAP-GRATIS",
+                            "Amount": "0",
+                            "Currency": "EUR",
+                            "Duration": "0u",
+                            "DurationLimit": "=",
+                            "UserType": [
+                                {
+                                    "UserType": "all users"
+                                },
+                                {
+                                    "UserType": "visitors"
+                                }
+                            ],
+                            "VehicleType": "all cars",
+                            "FeeDescription": "Daytime Tariff (24/24h) A whole day for Free - Dagtarief (24/24u) Een hele dag gratis parkeren - Taux jounalier Gratuit pour le jour (24/24h)"
+                        },
+                        "OpeningHour": [
+                            {
+                                "Name": "PAP-MONDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Monday"
+                            },
+                            {
+                                "Name": "PAP-TUESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Tuesday"
+                            },
+                            {
+                                "Name": "PAP-WEDNESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Wednesday"
+                            },
+                            {
+                                "Name": "PAP-THURSDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Thursday"
+                            },
+                            {
+                                "Name": "PAP-FRIDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Friday"
+                            },
+                            {
+                                "Name": "PAP-SATURDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Saturday"
+                            },
+                            {
+                                "Name": "PAP-SUNDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Sunday"
+                            }
+                        ]
+                    },
+                    {
+                        "GeneralInfo": {
+                            "IDInfo": {
+                                "Name": "P Station-Tack",
+                                "LogoURL": "http://www.kortrijk.be/files/kortrijk/header/strip_Station_Tack.jpg",
+                                "URL": "http://www.kortrijk.be/adressen/p-station-tack-0"
+                            },
+                            "Contact": {
+                                "FirstName": "Parko",
+                                "LastName": "agb",
+                                "Position": "Exploitant",
+                                "Phone": "+3256281212",
+                                "Fax": "+3256281213",
+                                "Email": "info@parko.be"
+                            },
+                            "Address": {
+                                "StreetName": "Minister Tacklaan",
+                                "PostalCode": "8500",
+                                "Location": "Kortrijk",
+                                "Country": "Belgium"
+                            },
+                            "GeoLocation": {
+                                "Latitude": "50.82365689950371",
+                                "Longitude": "3.261152652587953"
+                            }
+                        },
+                        "ParkingType": [
+                            {
+                                "ParkingType": "open space"
+                            },
+                            {
+                                "ParkingType": "parking zone"
+                            }
+                        ],
+                        "Feature": "wheelchair accessible",
+                        "PermittedVehicle": [
+                            {
+                                "PermittedVehicle": "large car"
+                            },
+                            {
+                                "PermittedVehicle": "light goods vehicles"
+                            },
+                            {
+                                "PermittedVehicle": "small car"
+                            }
+                        ],
+                        "UserType": "all users",
+                        "SecurityType": [
+                            {
+                                "SecurityType": "cctv"
+                            },
+                            {
+                                "SecurityType": "security staff"
+                            }
+                        ],
+                        "SupervisionType": [
+                            {
+                                "SupervisionType": "control centre off site"
+                            },
+                            {
+                                "SupervisionType": "patrol"
+                            },
+                            {
+                                "SupervisionType": "remote"
+                            }
+                        ],
+                        "PaymentMethod": [
+                            {
+                                "PaymentMethod": "cash"
+                            },
+                            {
+                                "PaymentMethod": "credit card"
+                            }
+                        ],
+                        "Capacity": "235",
+                        "Reservations": {},
+                        "SizeRestrictions": {
+                            "MaxWidth": "0",
+                            "MaxHeight": "0"
+                        },
+                        "Assessment": {
+                            "SecuritySelf": "0",
+                            "ServiceSelf": "0",
+                            "SecurityFormal": "0",
+                            "ServiceFormal": "0"
+                        },
+                        "Tariff": [
+                            {
+                                "Name": "PTA-03D",
+                                "Amount": "0",
+                                "Currency": "EUR",
+                                "Duration": "0u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) First 30min for Free - Dagtarief (8u-20u) Eerste 30min Gratis - Taux journalier (8h-20h) Premier 30min Gratuit"
+                            },
+                            {
+                                "Name": "PTA-10D",
+                                "Amount": "1",
+                                "Currency": "EUR",
+                                "Duration": "0,30u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max 1 hour for 1 Euro - Dagtarief (8u-20u) Max 1 uur parkeren aan 1 Euro - Taux journalier (8h-20h) max 1 heur pour 1 Euro"
+                            },
+                            {
+                                "Name": "PTA-12D",
+                                "Amount": "2",
+                                "Currency": "EUR",
+                                "Duration": "1u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 1h20 for 2 Euro - Dagtarief (8u-20u) Max 1u20 parkeren voor 2 Euro - Taux journalier (8h-20h) temps de stationnement max 1h20 pour 2 Euro"
+                            },
+                            {
+                                "Name": "PTA-14D",
+                                "Amount": "3",
+                                "Currency": "EUR",
+                                "Duration": "1u20",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 1h40 for 3 Euro - Dagtarief (8u-20u) Max 1u40 parkeren voor 3 Euro - Taux journalier (8h-20h) temps de stationnement max 1h40 pour 3 Euro"
+                            },
+                            {
+                                "Name": "PTA-20D",
+                                "Amount": "4",
+                                "Currency": "EUR",
+                                "Duration": "1u40",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 2h for 4 Euro - Dagtarief (8u-20u) Max 2u parkeren voor 4 Euro - Taux journalier (8h-20h) temps de stationnement max 2h pour 4 Euro"
+                            },
+                            {
+                                "Name": "PTA-23D",
+                                "Amount": "5",
+                                "Currency": "EUR",
+                                "Duration": "2u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) Max parktime 2h30 for 5 Euro - Dagtarief (8u-20u) Max 2u30 parkeren voor 5 Euro - Taux journalier (8h-20h) temps de stationnement max 2h30 pour 5 Euro"
+                            },
+                            {
+                                "Name": "PTA+23D",
+                                "Amount": "6",
+                                "Currency": "EUR",
+                                "Duration": "2u30",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Daytime Tariff (8am-8pm) parktime over 2h30 for 6 Euro - Dagtarief (8u-20u) meer dan 2u30 parkeren voor 6 Euro - Taux journalier (8h-20h) temps de stationnement plus de 2h30 pour 6 Euro"
+                            },
+                            {
+                                "Name": "PTA-03N",
+                                "Amount": "0",
+                                "Currency": "EUR",
+                                "Duration": "0u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) First 30min for Free - Nachttarief (20u-8u) Eerste 30min Gratis - Taux journalier (20h-8h) Premier 30min Gratuit"
+                            },
+                            {
+                                "Name": "PTA-10N",
+                                "Amount": "0.5",
+                                "Currency": "EUR",
+                                "Duration": "0,30u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 1h for 0.50 Euro - Nachttarief (20u-8u) Max 1u parkeren voor 0,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 1h pour 0,50 Euro"
+                            },
+                            {
+                                "Name": "PTA-12N",
+                                "Amount": "1",
+                                "Currency": "EUR",
+                                "Duration": "1u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 1h20 for 1 Euro - Nachttarief (20u-8u) Max 1u20 parkeren voor 1 Euro - Tarif de nuit (20h-8h) temps de stationnement max 1h20 pour 1 Euro"
+                            },
+                            {
+                                "Name": "PTA-14N",
+                                "Amount": "1.5",
+                                "Currency": "EUR",
+                                "Duration": "1u20",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 1h40 for 1,50 Euro - Nachttarief (20u-8u) Max 1u40 parkeren voor 1,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 1h40 pour 1,50 Euro"
+                            },
+                            {
+                                "Name": "PTA-20N",
+                                "Amount": "2",
+                                "Currency": "EUR",
+                                "Duration": "1u40",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 2h for 2 Euro - Nachttarief (20u-8u) Max 2u parkeren voor 2 Euro - Tarif de nuit (20h-8h) temps de stationnement max 2h pour 2 Euro"
+                            },
+                            {
+                                "Name": "PTA-23N",
+                                "Amount": "2.5",
+                                "Currency": "EUR",
+                                "Duration": "2u",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) Max parktime 2h30 for 2,50 Euro - Nachttarief (20u-8u) Max 2u30 parkeren voor 2,50 Euro - Tarif de nuit (20h-8h) temps de stationnement max 2h30 pour 2,50 Euro"
+                            },
+                            {
+                                "Name": "PTA+23N",
+                                "Amount": "3",
+                                "Currency": "EUR",
+                                "Duration": "3u30",
+                                "DurationLimit": "=",
+                                "UserType": [
+                                    {
+                                        "UserType": "all users"
+                                    },
+                                    {
+                                        "UserType": "visitors"
+                                    }
+                                ],
+                                "VehicleType": "all cars",
+                                "FeeDescription": "Nighttime Tariff (8pm-8am) parktime over 2h30 for 3 Euro with a maximum of 12 hours - Nachttarief (20u-8u) Meer dan 2u30 parkeren voor 3 Euro met een maximum van 12 uren - Tarif de nuit (8h-20h) temps de stationnement plus de 2h30 pour 3 Euro"
+                            }
+                        ],
+                        "OpeningHour": [
+                            {
+                                "Name": "PTA-MONDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Monday"
+                            },
+                            {
+                                "Name": "PTA-TUESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Tuesday"
+                            },
+                            {
+                                "Name": "PTA-WEDNESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Wednesday"
+                            },
+                            {
+                                "Name": "PTA-THURSDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Thursday"
+                            },
+                            {
+                                "Name": "PTA-FRIDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Friday"
+                            },
+                            {
+                                "Name": "PTA-SATURDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Saturday"
+                            },
+                            {
+                                "Name": "PTA-SUNDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Sunday"
+                            }
+                        ],
+                        "Subscription": [
+                            {
+                                "Name": "Persoonsabonnement T1",
+                                "Fee": "45",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription T1: Monday - Friday / 8am-8pm (Monthly subscription) - Persoonsabonnement T1: Maandag - Vrijdag / 8u-20u (Maandabonnement) - Abonnement Personnel T1: Lundi - Vendredi / 8h-20h (Abonnement Mensuel)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement T2",
+                                "Fee": "55",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription T2: Monday - Sunday / 8am-8pm (Monthly subscription) - Persoonsabonnement T2: Maandag - Zondag / 8u-20u (Maandabonnement) - Abonnement Personnel T2: Lundi - Dimanche / 8h-20h (Abonnement Mensuel)"
+                            },
+                            {
+                                "Name": "Persoonsabonnement T3",
+                                "Fee": "65",
+                                "Currency": "EUR",
+                                "Description": "Personal Subscription T3: 7days on 7 / 24/24h (Monthly subscription) - Persoonsabonnement T3: 7 dagen op 7 / 24/24u (Maandabonnement) - Abonnement Personnel T3: Lundi - Dimanche / 8h-20h (Abonnement Mensuel)"
+                            },
+                            {
+                                "Name": "Bewonersabonnement 1e vergunning",
+                                "Fee": "20",
+                                "Currency": "EUR",
+                                "Description": "Residents Subscription 1e license (7/7d - 24/24h) (Monthly) - Bewonersabonnement 1e vergunning (7/7d - 24/24u) (per maand) - Abonnement Résidents 1e permis (24h-24h)"
+                            },
+                            {
+                                "Name": "Bewonersabonnement 2e vergunning",
+                                "Fee": "30",
+                                "Currency": "EUR",
+                                "Description": "Residents Subscription 2nd license (7/7d - 24/24h) (Monthly) - Bewonersabonnement 2e vergunning (7/7d - 24/24u) (per maand) - Abonnement Résidents 2e permis (24h-24h)"
+                            }
+                        ]
+                    },
+                    {
+                        "GeneralInfo": {
+                            "IDInfo": {
+                                "Name": "P Expo",
+                                "LogoURL": "http://www.kortrijk.be/files/kortrijk/header/strip_Expo.jpg",
+                                "URL": "http://www.kortrijk.be/adressen/p-expo"
+                            },
+                            "Contact": {
+                                "FirstName": "Parko",
+                                "LastName": "agb",
+                                "Position": "Exploitant",
+                                "Phone": "+3256281203",
+                                "Fax": "+3256281212",
+                                "Email": "info@parko.be"
+                            },
+                            "Address": {
+                                "StreetName": "President Kennedylaan",
+                                "HouseNumber": "100",
+                                "PostalCode": "8500",
+                                "Location": "Kortrijk",
+                                "Country": "Belgium"
+                            },
+                            "GeoLocation": {
+                                "Latitude": "50.80537438943953",
+                                "Longitude": "3.276924041595521"
+                            }
+                        },
+                        "ParkingType": [
+                            {
+                                "ParkingType": "highway"
+                            },
+                            {
+                                "ParkingType": "open space"
+                            },
+                            {
+                                "ParkingType": "parking zone"
+                            }
+                        ],
+                        "Feature": [
+                            {
+                                "Feature": "information point"
+                            },
+                            {
+                                "Feature": "wheelchair accessible"
+                            }
+                        ],
+                        "PermittedVehicle": "all cars",
+                        "UserType": "all users",
+                        "SecurityType": [
+                            {
+                                "SecurityType": "24/24 guard"
+                            },
+                            {
+                                "SecurityType": "cctv"
+                            },
+                            {
+                                "SecurityType": "security staff"
+                            }
+                        ],
+                        "SupervisionType": [
+                            {
+                                "SupervisionType": "control centre on site"
+                            },
+                            {
+                                "SupervisionType": "on site"
+                            },
+                            {
+                                "SupervisionType": "patrol"
+                            }
+                        ],
+                        "PaymentMethod": [
+                            {
+                                "PaymentMethod": "cash"
+                            },
+                            {
+                                "PaymentMethod": "credit card"
+                            }
+                        ],
+                        "Capacity": "2703",
+                        "Reservations": {},
+                        "SizeRestrictions": {
+                            "MaxWidth": "0",
+                            "MaxHeight": "0"
+                        },
+                        "Assessment": {
+                            "SecuritySelf": "0",
+                            "ServiceSelf": "0",
+                            "SecurityFormal": "0",
+                            "ServiceFormal": "0"
+                        },
+                        "Tariff": {
+                            "Name": "PEX-BEURS",
+                            "Amount": "0",
+                            "Currency": "EUR",
+                            "Duration": "Day",
+                            "DurationLimit": "=",
+                            "UserType": [
+                                {
+                                    "UserType": "all users"
+                                },
+                                {
+                                    "UserType": "visitors"
+                                }
+                            ],
+                            "VehicleType": "all cars",
+                            "FeeDescription": "Tariffs are daily depending - Tarieven afhankelijk van de beurzen op Expo - Les tarifs sont par jour, selon"
+                        },
+                        "OpeningHour": [
+                            {
+                                "Name": "PEX-MONDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Monday"
+                            },
+                            {
+                                "Name": "PEX-TUESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Tuesday"
+                            },
+                            {
+                                "Name": "PEX-WEDNESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Wednesday"
+                            },
+                            {
+                                "Name": "PEX-THURSDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Thursday"
+                            },
+                            {
+                                "Name": "PEX-FRIDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Friday"
+                            },
+                            {
+                                "Name": "PEX-SATURDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Saturday"
+                            },
+                            {
+                                "Name": "PEX-SUNDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Sunday"
+                            }
+                        ]
+                    },
+                    {
+                        "GeneralInfo": {
+                            "IDInfo": {
+                                "Name": "Park + Ride",
+                                "LogoURL": "http://www.kortrijk.be/files/kortrijk/header/strip_Expo.jpg",
+                                "URL": "http://www.kortrijk.be/producten/park-ride"
+                            },
+                            "Contact": {
+                                "FirstName": "Parko",
+                                "LastName": "agb",
+                                "Position": "Exploitant",
+                                "Phone": "+3256281212",
+                                "Fax": "+3256281213",
+                                "Email": "info@parko.be"
+                            },
+                            "Address": {
+                                "StreetName": "President Kennedylaan",
+                                "PostalCode": "8500",
+                                "Location": "Kortrijk",
+                                "Country": "Belgium"
+                            },
+                            "GeoLocation": {
+                                "Latitude": "50.80487943522071",
+                                "Longitude": "3.277224449005189"
+                            }
+                        },
+                        "ParkingType": [
+                            {
+                                "ParkingType": "open space"
+                            },
+                            {
+                                "ParkingType": "park and ride"
+                            },
+                            {
+                                "ParkingType": "parking zone"
+                            }
+                        ],
+                        "Feature": [
+                            {
+                                "Feature": "information point"
+                            },
+                            {
+                                "Feature": "wheelchair accessible"
+                            }
+                        ],
+                        "PermittedVehicle": "all cars",
+                        "UserType": "all users",
+                        "SecurityType": [
+                            {
+                                "SecurityType": "cctv"
+                            },
+                            {
+                                "SecurityType": "security staff"
+                            }
+                        ],
+                        "SupervisionType": [
+                            {
+                                "SupervisionType": "control centre off site"
+                            },
+                            {
+                                "SupervisionType": "remote"
+                            }
+                        ],
+                        "PaymentMethod": [
+                            {
+                                "PaymentMethod": "cash"
+                            },
+                            {
+                                "PaymentMethod": "credit card"
+                            }
+                        ],
+                        "Capacity": "448",
+                        "Reservations": {},
+                        "SizeRestrictions": {
+                            "MaxWidth": "0",
+                            "MaxHeight": "0"
+                        },
+                        "Assessment": {
+                            "SecuritySelf": "0",
+                            "ServiceSelf": "0",
+                            "SecurityFormal": "0",
+                            "ServiceFormal": "0"
+                        },
+                        "Tariff": {
+                            "Name": "PPR-BEURS",
+                            "Amount": "0",
+                            "Currency": "EUR",
+                            "Duration": "Day",
+                            "DurationLimit": "=",
+                            "UserType": [
+                                {
+                                    "UserType": "all users"
+                                },
+                                {
+                                    "UserType": "visitors"
+                                }
+                            ],
+                            "VehicleType": "all cars",
+                            "FeeDescription": "Tariffs are daily depending - Tarieven afhankelijk van de beurzen op Expo - Les tarifs sont par jour, selon"
+                        },
+                        "OpeningHour": [
+                            {
+                                "Name": "PPR-MONDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Monday"
+                            },
+                            {
+                                "Name": "PPR-TUESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Tuesday"
+                            },
+                            {
+                                "Name": "PPR-WEDNESDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Wednesday"
+                            },
+                            {
+                                "Name": "PPR-THURSDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Thursday"
+                            },
+                            {
+                                "Name": "PPR-FRIDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Friday"
+                            },
+                            {
+                                "Name": "PPR-SATURDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Saturday"
+                            },
+                            {
+                                "Name": "PPR-SUNDAY",
+                                "StartDate": {},
+                                "EndDate": {},
+                                "StartTime": "01:00:00.0000000+02:00",
+                                "EndTime": "01:00:00.0000000+02:00",
+                                "Day": "Sunday"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

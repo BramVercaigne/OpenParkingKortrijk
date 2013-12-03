@@ -17,67 +17,71 @@ function deg2rad(deg) {
   return deg * (Math.PI/180)
 }
 
-($.ajax({
-	url: 'http://data.drk.be/parko/bezettingparkings.json',
-	dataType: 'json',
-	success: function (data){
-		var html = "";
-		var lengthData = data.bezettingparkings.parking.length;
-		for (var i=0;i<lengthData;i++){
-			//alert(data.bezettingparkings.parking[i].parking);
-			var status = "";
-			var free = data.bezettingparkings.parking[i]._vrij;
-			var cap = data.bezettingparkings.parking[i]._capaciteit
-			var warning = data.bezettingparkings.parking[i]._capaciteit * 0.2;
-			var full = data.bezettingparkings.parking[i]._capaciteit * 0.1;
-			var parkingNaam = data.bezettingparkings.parking[i].parking;
+var bezetting =  null;
+var info = null;
 
-			
+$.ajax({
+    url: 'http://data.drk.be/parko/bezettingparkings.json',
+    dataType: 'json',
+    async: false,
+    success: function(data) {
+        bezetting = data;
+    }
+});
 
-			switch (true) {
-				case (free < full):
-					status = "danger";
-					break;
-				case (free < warning):
-					status = "warning";
-					break;					
-				default:
-					status = "success";
-					break;
+$.ajax({
+    url: 'http://data.drk.be/parko/parkoinfo.json',
+    dataType: 'json',
+    async: false,
+    success: function(data) {
+        info = data;
+    }
+});
 
+function laadParking(){
+	var html = "";
+	var lengthBezetting = bezetting.bezettingparkings.parking.length;
+	for (var i=0;i<lengthBezetting;i++){
+		var status = "";
+		var free = bezetting.bezettingparkings.parking[i]._vrij;
+		var cap = bezetting.bezettingparkings.parking[i]._capaciteit
+		var warning = bezetting.bezettingparkings.parking[i]._capaciteit * 0.2;
+		var full = bezetting.bezettingparkings.parking[i]._capaciteit * 0.1;
+		var parkingNaam = bezetting.bezettingparkings.parking[i].parking;
 
-			}
+		switch (true) {
+			case (free < full):
+				status = "danger";
+				break;
+			case (free < warning):
+				status = "warning";
+				break;					
+			default:
+				status = "success";
+				break;
+		}
 
-			html += "<div class='panel panel-";
-			html += status;
-			html += "'>";
-				html += "<div class='panel-heading'>";
-					
+		html += "<div class='panel panel-";
+		html += status;
+		html += "'>";
+			html += "<div class='panel-heading'>";
+				html += "<a data-toggle='collapse' data-parent='#accordion' href='#collapse"
+				html += i;
+				html += "'>";
+					html += "<h4 class='panel-title'>";
+			           	html += parkingNaam;
+				           	html += "<span id='km-";
+							html += parkingNaam;
+							html += "' class='badge pull-right'>";
+							html += "</span>";
+							html += "<span class='badge pull-right'>";
+							html += free;
+							html += "</span>";
+					html += "</h4>";	
+	            html += "</a>";
+            html += "</div>";
 
-
-					html += "<a data-toggle='collapse' data-parent='#accordion' href='#collapse"
-					html += i;
-					html += "'>";
-
-						html += "<h4 class='panel-title'>";
-			           	
-				           	html += parkingNaam;
-					           	html += "<span id='km-";
-								html += parkingNaam;
-								html += "' class='badge pull-right'>";
-								html += "</span>";
-								html += "<span class='badge pull-right'>";
-								html += free;
-								html += "</span>";
-			            
-						html += "</h4>";	
-		            html += "</a>";
-		            
-	            html += "</div>";
-	            
-	            //html += "<div id='collapseOne' class='panel-collapse collapse in'>"
-
-	            html += "<div id='collapse"
+            html += "<div id='collapse"
 	            html += i;
 	            html += "' class='panel-collapse collapse'>"
 					html += "<div class='panel-body'>";
@@ -85,13 +89,13 @@ function deg2rad(deg) {
 						html += parkingNaam;
 						html += "'></div>";
 					html += "</div>";
-				html += "</div>";
 			html += "</div>";
-		}
-		document.getElementById("accordion").innerHTML = html;
-		getLocation();
+		html += "</div>";
 	}
-}));
+	document.getElementById("accordion").innerHTML = html;
+
+		
+}
 
 function getLocation(){
   if (navigator.geolocation){
@@ -102,23 +106,63 @@ function getLocation(){
   }
 }
 
+
 function showPosition(position){
-  ($.ajax({
-	url: 'http://data.drk.be/parko/parkoinfo.json',
-	dataType: 'json',
-	success: function (info){
-		
-		var lengthInfo = info.parkoinfo.Authority.Operator.OffstreetParking.length;
-		for (var i=0;i<lengthInfo;i++){
-			var km = getDistanceFromLatLonInKm(position.coords.latitude, position.coords.longitude, info.parkoinfo.Authority.Operator.OffstreetParking[i].GeneralInfo.GeoLocation.Latitude, info.parkoinfo.Authority.Operator.OffstreetParking[i].GeneralInfo.GeoLocation.Longitude);
-			km = Math.round(km * 100) / 100;
-			var speed = position.coords.speed;
-			document.getElementById("km-"+info.parkoinfo.Authority.Operator.OffstreetParking[i].GeneralInfo.IDInfo.Name).innerHTML = "<span class='glyphicon glyphicon-road'></span>" + " " +km + " km / sp: " + speed;
+	var jsonBram;
+  	($.ajax({
+		url: 'http://data.drk.be/parko/parkoinfo.json',
+		dataType: 'json',
+		success: function (info){
+			var lengthInfo = info.parkoinfo.Authority.Operator.OffstreetParking.length;
+			for (var i=0;i<lengthInfo;i++){
+				var km = getDistanceFromLatLonInKm(position.coords.latitude, position.coords.longitude, info.parkoinfo.Authority.Operator.OffstreetParking[i].GeneralInfo.GeoLocation.Latitude, info.parkoinfo.Authority.Operator.OffstreetParking[i].GeneralInfo.GeoLocation.Longitude);
+				km = Math.round(km * 100) / 100;
+				var speed = position.coords.speed;
+				document.getElementById("km-"+info.parkoinfo.Authority.Operator.OffstreetParking[i].GeneralInfo.IDInfo.Name).innerHTML = "<span class='glyphicon glyphicon-road'></span>" + " " +km + " km / sp: " + speed;
+				
+			}
 			
-			//alert(position.coords.latitude+","+ position.coords.longitude+"&"+latparking+","+longparking);
 		}
-	}
-}));
+	}));
   }
 
+function panelInfo(){
+	var lengthInfo = info.parkoinfo.Authority.Operator.OffstreetParking.length;
+	for (var i=0;i<lengthInfo;i++){
+		var htmlPanel = "";
+		htmlPanel += "<div class='col-xs-8 col-sm-8'>";
+			htmlPanel += "<p>"
+				htmlPanel += info.parkoinfo.Authority.Operator.OffstreetParking[i].GeneralInfo.Address.StreetName;
+			htmlPanel += "</p>"
+			htmlPanel += "<p>"
+				htmlPanel += info.parkoinfo.Authority.Operator.OffstreetParking[i].GeneralInfo.Address.PostalCode;
+				htmlPanel += " ";
+				htmlPanel += info.parkoinfo.Authority.Operator.OffstreetParking[i].GeneralInfo.Address.Location;
+			htmlPanel += "</p>"
+		htmlPanel += "</div>";
+		htmlPanel += "<div class='col-xs-4 col-sm-4'>";
+			htmlPanel += "<p>"
+				htmlPanel += "<button type='button' class='btn btn-default' id='btn";
+				htmlPanel += info.parkoinfo.Authority.Operator.OffstreetParking[i].GeneralInfo.IDInfo.Name;
+				htmlPanel += "'>"
+				htmlPanel += "Navigeren";
+				htmlPanel += "</button>"
+			htmlPanel += "</p>"
+			htmlPanel += "<p>"
+				htmlPanel += "<button type='button' class='btn btn-default' id='btn";
+				htmlPanel += info.parkoinfo.Authority.Operator.OffstreetParking[i].GeneralInfo.IDInfo.Name;
+				htmlPanel += "'>"
+				htmlPanel += "Start timer";
+				htmlPanel += "</button>"
+			htmlPanel += "</p>"
+		htmlPanel += "</div>";
 
+		document.getElementById("panel"+info.parkoinfo.Authority.Operator.OffstreetParking[i].GeneralInfo.IDInfo.Name).innerHTML = htmlPanel; 
+		
+	}
+			
+}
+
+    laadParking();
+panelInfo();
+getLocation();
